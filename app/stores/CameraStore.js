@@ -1,10 +1,9 @@
 define([
   'esri/core/Collection',
   'esri/request',
-  'dojo/Deferred',
-  'dstore/Memory'
+  'dojo/Deferred'
 ], function(
-  Collection, esriRequest, Deferred, Memory
+  Collection, esriRequest, Deferred
 ) {
 
   var CameraStore = Collection.createSubclass({
